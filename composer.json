@@ -14,7 +14,13 @@
         "php": "^8.2",
         "ext-json": "*"
     },
-    "require-dev": {},
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.4",
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan-phpunit": "^2.0",
+        "slevomat/coding-standard": "^8.24"
+    },
     "autoload": {
         "psr-4": {
             "TodoistApiPhp\\": "src/"
@@ -24,6 +30,10 @@
         "psr-4": {
             "TodoistApiPhp\\Tests\\": "tests/"
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
-
 }

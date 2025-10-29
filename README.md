@@ -1,4 +1,4 @@
-#Todoist API PHP Client
+# Todoist API PHP Client
 
 This is an inofficial PHP API Client for the [Todoist REST API](https://developer.todoist.com/api/v1/).
 
