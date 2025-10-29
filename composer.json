@@ -1,0 +1,29 @@
+{
+    "name": "sergeiprokhorov/todoist-api-php",
+    "description": "A PHP api client for the Todoist REST API",
+    "type": "library",
+    "keywords": ["todoist", "api", "client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei P."
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "TodoistApiPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TodoistApiPhp\\Tests\\": "tests/"
+        }
+    }
+
+}
